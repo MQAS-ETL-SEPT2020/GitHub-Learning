@@ -1,7 +1,6 @@
 package tools_qa;
 
 	import static org.testng.Assert.assertEquals;
-	import static org.testng.Assert.assertTrue;
 	import org.openqa.selenium.By;
 	import org.openqa.selenium.WebElement;
 	import org.testng.Reporter;

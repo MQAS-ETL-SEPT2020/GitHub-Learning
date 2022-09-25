@@ -7,6 +7,8 @@ import org.openqa.selenium.WebElement;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import mqasetl.GitHub__Learning.Basetest;
+
 
 
 public class TC_05_Achyut_Webtable extends Basetest {

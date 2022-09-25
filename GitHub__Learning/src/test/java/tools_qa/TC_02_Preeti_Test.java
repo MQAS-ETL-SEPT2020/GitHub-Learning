@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 
 import mqasetl.GitHub__Learning.Basetest;
 
-public class TC_02_Preeti_Test extends Basetest{
+public class TC_02_Preeti_Test extends Basetest {
 	@Test
 	public void button() {
 
@@ -29,6 +29,6 @@ public class TC_02_Preeti_Test extends Basetest{
 		WebElement click = driver.findElement(By.xpath("//button[text()='Click Me']"));
 		act.click();
 		Reporter.log("Successfully clicked on click me", true);
-		
-		
+	}
+
 }

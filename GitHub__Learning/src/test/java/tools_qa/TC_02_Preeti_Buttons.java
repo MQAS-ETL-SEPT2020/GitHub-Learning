@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 
-public class TC_02_Preeti_Buttons {
+public class TC_02_Preeti_ {
 	
 	public static void main(String[] args) {	
 		

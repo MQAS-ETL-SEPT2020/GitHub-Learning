@@ -1,17 +1,14 @@
 package tools_qa;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
 import mqasetl.GitHub__Learning.Basetest;
 
-public class TC_02_Preeti_Test extends Basetest {
+public class TC_02_Preeti_Test extends Basetest{
 	@Test
 	public void button() {
 
@@ -34,7 +31,4 @@ public class TC_02_Preeti_Test extends Basetest {
 		Reporter.log("Successfully clicked on click me", true);
 		
 		
-	
-
-	}
 }

@@ -5,8 +5,8 @@ package tools_qa;
 	import org.openqa.selenium.WebElement;
 	import org.openqa.selenium.chrome.ChromeDriver;
 	import org.openqa.selenium.interactions.Actions;
-
-public class TC_02_Preeti_Test {
+	
+	public class TC_02_Preeti_Test {
 		public static void main(String[] args) {	
 			
 			System.out.println("WebDriver Manager Setup Successfully");
@@ -34,4 +34,6 @@ public class TC_02_Preeti_Test {
 
 		}
 	}
+
+
 

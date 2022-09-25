@@ -9,13 +9,11 @@ import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import mqasetl.GitHub__Learning.Basetest;
 
-public class TC_02_Preeti_Test {
+public class TC_02_Preeti_Test extends Basetest {
 	@Test
-	void C_02_Preeti_Test() {
-		WebDriverManager.chromedriver();
-		Reporter.log("WebDriver Manager Setup Successfully", true);
-		WebDriver driver = new ChromeDriver();
+	public void button() {
 
 		driver.get("https://demoqa.com/buttons");
 		Reporter.log("Chrome driver launched successfully", true);
@@ -31,12 +29,12 @@ public class TC_02_Preeti_Test {
 		act.contextClick(rightClick).perform();
 		Reporter.log("Successfully clicked on right click ", true);
 
-		WebElement click=driver.findElement(By.xpath("//button[text()='Click Me']"));
+		WebElement click = driver.findElement(By.xpath("//button[text()='Click Me']"));
 		act.click();
 		Reporter.log("Successfully clicked on click me", true);
-
-		driver.quit();
-		Reporter.log("Chrome driver closed successfully", true);
+		
+		
+	
 
 	}
 }

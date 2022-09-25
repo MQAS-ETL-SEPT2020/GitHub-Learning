@@ -7,7 +7,7 @@ import mqasetl.GitHub__Learning.Basetest;
 
 public class TC_06_Anil_Test extends Basetest{
 	@Test
-	public void testcase1() throws InterruptedException {
+	public void link_page() throws InterruptedException {
 		// opening demoQA page
 		driver.get("https://demoqa.com/");
 

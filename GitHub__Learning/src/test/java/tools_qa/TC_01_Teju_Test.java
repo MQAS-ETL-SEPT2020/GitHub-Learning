@@ -14,10 +14,6 @@ public class TC_01_Teju_Test extends Basetest {
 		WebDriverManager.chromedriver().setup();
 		System.out.println("webdriver setup is successfully");
 
-		// Launching the Browser
-		WebDriver driver = new ChromeDriver();
-		System.out.println("Browser launched successfully");
-
 		// Maximize the Browser
 		driver.manage().window().maximize();
 		System.out.println("Browser is maximized");
@@ -30,8 +26,6 @@ public class TC_01_Teju_Test extends Basetest {
 		driver.findElement(By.className("rct-checkbox")).click();
 		System.out.println("successfully clicked on checkbox module");
 
-		driver.close();
-		System.out.println("Application closed successfully");
 
 	}
 }
